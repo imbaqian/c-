@@ -26,7 +26,7 @@ void Stock::show()const
 
 Stock::Stock()
 {
-    std::cout << "Default constructor called\n";
+	std::cout << "Default constructor called\n";
     m_company = "No Name";
     m_shares = 0;
     m_share_val = 0.0;
