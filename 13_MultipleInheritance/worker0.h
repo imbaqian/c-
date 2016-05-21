@@ -11,7 +11,7 @@ private:
 public:
 	Worker() : fullName("no one"), id(0L){}
 	Worker(const std::string &s,long n) : fullName(s), id(n) {}
-	virtual ~Worker(){}
+	virtual ~Worker() = 0;//pure virtual destructor纯虚函数
 	virtual void Set();
 	virtual void Show()const;	
 };
