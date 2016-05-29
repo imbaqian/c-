@@ -1,5 +1,5 @@
 # 忽略.vscode
-/.vscode/
+/.vscode/*
 # 显示指定忽略名称为main的文件  
 main*
 # 忽略test
