@@ -20,10 +20,12 @@ const string & Student::Name()const{
 }
 
 double & Student::operator[](int i){
+	cout << "double &" << endl;
 	return ArrayDb::operator[](i); //注意！！！
 }
 
 double Student::operator[](int i)const{
+	cout << "double  const" << endl;
 	return ArrayDb::operator[](i);
 }
 

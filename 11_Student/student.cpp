@@ -18,10 +18,12 @@ const string & Student::Name()const{
 }
 
 double & Student::operator[](int i){
+	std::cout << "double &" << endl;
 	return scores[i];
 }
 
 double Student::operator[](int i)const{
+	std::cout << "double const" << endl;
 	return scores[i];
 }
 

@@ -1,6 +1,0 @@
-#忽略.vscode文件夹
-/.vscode/
-
-#忽略main
-main
-main*
