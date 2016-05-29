@@ -1,8 +1,8 @@
-#忽略.vscode
+# 忽略.vscode
 /.vscode/
-#显示指定忽略名称为main的文件  
+# 显示指定忽略名称为main的文件  
 main*
-#忽略test
+# 忽略test
 test?
-#忽略.gitignore
-.gigignore 
+# 忽略.gitignore
+.gitignore 
